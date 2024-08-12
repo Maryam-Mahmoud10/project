@@ -1,0 +1,62 @@
+body{
+    background-image: url(../image/cats.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.logo{
+    position: absolute;
+    left: 8%;
+    color: rgb(209, 137, 55);
+    display: flex;
+    z-index: 2;
+}
+
+nav{
+    position: absolute;
+    left:50%;
+    color: rgb(209, 137, 55);
+    border-bottom: 2px solid rgb(209, 137, 55);
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    width: 600px;
+}
+/* nav :hover{
+    background-color: rgb(148, 148, 148);
+    color: black;
+    cursor: pointer;
+} */
+.left-p-side{
+width: 800px;
+height:641px;
+position: relative;
+position: absolute;
+background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8939950980392157) 79%, rgba(255,255,255,0) 100%);
+}
+.left-p-side > h2{
+    top: 200px;
+    left: 50px;
+    padding-top: 100px;
+    position: absolute;
+    top: 100px;
+    color: rgb(148, 148, 148);
+    
+}
+
+.left-p-side > p{
+    position: absolute;
+    top: 350px;
+    width: 600px;
+    line-height: 40px;
+    margin-left: 30px;
+    color: rgb(148, 148, 148);
+
+}
+.left-p-side button{
+    font-size: 20px;
+  border: 1px;
+  border-radius:10px ;
+  color: black;
+  background-color: darkgrey;
+}
